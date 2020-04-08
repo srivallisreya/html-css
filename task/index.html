@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+.form-box{
+    width: 350px;
+    height: 500px;
+    margin: 6% auto;
+    position: relative;
+    padding: 0pX;
+    
+    
+    
+}
+@media only screen and (min-width: 1px) and (max-width: 350px){
+  .form-box {width:100%;}
+}
+
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left:15px;
+  
+  
+}
+
+
+.icon {
+  padding: 10px;
+  background:black;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color:skyblue;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  margin-top: 20px;
+  
+}
+
+
+.bt{
+  background-color:gold;
+  color:white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width:100%;
+  opacity:0.9;
+  margin-top: 10px;
+}
+.bt:hover{
+  opacity: 1;
+}
+hr{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width:90%;
+  
+}
+.or{
+  background:#fff;
+  width:25px;
+  
+  margin:-30px auto 19px;
+}
+
+.butt{
+  background-color: blue;
+  color:white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width:100%;
+  opacity:0.9;
+  padding-top: 10px;
+  margin:10px auto 0px;
+}
+.butt:hover{
+  opacity: 1;
+}
+
+.b{
+  background-color: red;
+  color:white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width:100%;
+  opacity:0.9;
+  margin:5px auto 20px;
+}
+.b:hover{
+  opacity: 1;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.container {
+  padding: 1px;
+  width:90%;
+  margin-left: 15px;
+  
+}
+
+
+span.psw {
+  float: left;
+  padding-top: 1px;
+  padding-bottom: 30px;
+}
+span.reg{
+float: right;
+padding-top: 1px;
+padding-bottom: 30px;
+}
+
+span.head1{
+  float:right;
+
+}
+
+.header{
+  width:100%;
+  text-align:center;
+  color:#fff;
+  background:dodgerblue;
+}
+
+
+
+</style>
+</head>
+
+<body>
+  
+  <div class="form-box">  
+  <form action="/action_page.php" >	
+      
+        <div class="header">
+          <h1>Sign in</h1>
+        </div>
+    
+        <div class="input-container">
+			    <input class="input-field" type="text" placeholder="mail@example.com" name="email">
+			    <i class="fa fa-envelope icon"></i>
+  		  </div>
+  
+  		  <div class="input-container">
+			    <input class="input-field" type="password" placeholder="password" name="psw">
+          <i class="fa fa-lock icon"></i>
+        </div>
+
+        <div class="input-container">
+          <button type="submit" class="btn">SIGN IN</button>
+        </div>
+      
+        <div class="container" >
+          <span class="psw">Forgot your <a href="#">password?</a></span>
+          <span class="reg"><a href="#">Regiester!</a></span>
+        </div>
+        <hr>
+        <p class="or">OR</p>
+
+        
+      
+        <div class="input-container">
+          <button type="submit" class="butt">f</button>
+        </div>
+      
+        <div class="input-container">
+          <button type="submit" class="b">g</button>
+        </div>
+        
+        <div class="input-container">
+          <button type="submit" class="bt"> &lt Epam Login &gt </Epam></button>
+        </div>
+      
+		</form>
+	</div>
+
+</body>
+</html>
